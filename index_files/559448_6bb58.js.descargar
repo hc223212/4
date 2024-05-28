@@ -1,0 +1,14 @@
+window.mcwidget = {"appId":"532160876956612","pageId":"559448","page_name":"MKPMU Lashes & Tattoo","fb_page_id":"319639921766184","widget_phone":null,"sms_channel_connected":false,"widgets":[],"widgetLocale":"es_MX","defaultSize":0,"fbSDKVersion":"v15.0","whitelist":["e04a45f0a505569fddc714decd22a84e8cb421b628b371dd70f2ca7035eac346","f2cbfeda670dc91d10651057f2d9c1f9010175cf28059cfc43337b7d2c6f3f4d","36d89a1ba8cf52036f81a963c230938b18519267ee2a0e7203de79da8f03be17"],"smsModalConsentText":"Please note that by typing in your phone number in the field above you are agreeing to receive autodialed personal and marketing text messages to your mobile number. Consent is not required for purchase. Message and data rates may apply. Reply “STOP” by SMS to cancel."};
+
+
+(function(d, s, id){
+    var host = 'mccdn.me';
+
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) { return; }
+    js = d.createElement(s); js.id = id;
+    js.src = '//' + host + '/assets/js/widget.js';
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'mcwidget-core'));
+
+        
